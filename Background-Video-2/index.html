@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Background-Video-2</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+ <div class="preloader">
+  <img src="preloader.gif" alt="">
+ </div>
+
+
+    <video autoplay muted loop id="myVideo">
+  <source src="video/background-video.mp4" type="video/mp4">
+  Your browser does not support HTML5 video.
+</video>
+<div class="content">
+    <h1 style="word-spacing: 15px;font-size: 60px;font-weight: none;">Sahand Ghavidel</h1>
+    
+    <button id="myBtn" onclick="myFunction()"><i id="playVideo" class="fa fa-play" style="font-size:36px;"></i><i id="pauseVideo" class="fa fa-pause" style="font-size:36px;"></i></button>
+    <!-- <i class="fa fa-pause" style="font-size:36px;"></i> -->
+  </div>
+
+  <!-- <div class="loading-container">
+    <div class="spinner"></div>
+    <div class="spinner-center"></div>
+    <div class="loading-text">Loading...</div>
+  </div> -->
+    <script src="app.js"></script>
+</body>
+</html>

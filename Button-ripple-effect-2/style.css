@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+    background-color: azure;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+button{
+    width: 125px;
+    height: 60px;
+    font-size: 17px;
+    background-color: pink;
+    border: 1px solid pink;
+    box-shadow: 0 3px   10px  rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+button span{
+    border-radius: 50%;
+    background-color: orangered;
+    position: absolute;
+    width: 100px;
+            	height: 100px;
+            	margin-top: -50px;
+            	/* for positioning */
+            	margin-left: -50px;
+    animation: ripple 2s;
+    opacity: 0;
+}
+@keyframes ripple {
+    from {
+        opacity: 1;
+        transform: scale(0);
+    }
+
+    to {
+        opacity: 0;
+        transform: scale(10);
+    }
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currrency-Converter-2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="Currency">
+            <h1>Currency Converter</h1>
+            <select name="Currency-1" id="Currency-1">
+                <option value="AUD">AUD</option>
+                <option value="CAD">CAD</option>
+                <option value="EUR">EUR</option>
+                <option value="GBP">GBP</option>
+                <option value="INR">INR</option>
+                <option value="JPY">JPY</option>
+                <option value="USD" selected>USD</option>
+            </select>
+            <input type="number" name="number" id="number" value="1">
+           <div class="convert2">
+            <select name="Currency2" id="Currency-2">
+                <option value="AUD">AUD</option>
+                <option value="CAD">CAD</option>
+                <option value="EUR">EUR</option>
+                <option value="GBP">GBP</option>
+                <option value="INR" selected >INR</option>
+                <option value="JPY">JPY</option>
+                <option value="USD">USD</option>
+            </select>
+        </div>
+        
+        <button class="convert">Convert</button>
+        <h5 class="textRes"> <span class="fromCurr"></span><span class="toCurr"></span></h5>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

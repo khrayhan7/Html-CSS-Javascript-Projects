@@ -1,0 +1,58 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    min-height: 100vh;
+    background-color: salmon;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.container .text{
+    position: relative;
+    color: black;
+   font-size: 30px;
+   font-weight: 600;
+   
+    
+     
+    
+}
+.container .text.first-text{
+  color: black;
+}
+.container{
+    width: 300px;
+    overflow: hidden;
+}
+
+.text.sec-text::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    /* border-left: 2px solid rgb(14, 13, 13); */
+    background-color: salmon;
+    overflow: hidden;
+    animation: animate 4s steps(12) infinite;
+    
+}
+@keyframes animate{
+    40%,60%{
+        left: calc(100% + 4px);
+    }
+    100%{
+        left: 0%;
+    }
+}
+
+

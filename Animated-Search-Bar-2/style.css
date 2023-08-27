@@ -1,0 +1,137 @@
+body{
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    display: flex;
+    background-color: aliceblue;
+    border-left: 1px solid white;
+    border-bottom: 1px solid aliceblue;
+    border-top: 1px solid white;
+    border-right: 1px solid aliceblue;
+   border-radius: 50px;
+    justify-content: center;
+    margin-top: 200px;
+    width: 280px;
+    
+   
+  
+    height: 55px;
+   box-shadow: 6px 5px 5px 0px rgba(180, 175, 175, 0.7);
+   transition: width 1.5s;
+}
+input{
+    /* border: none;  */
+   background-color: aliceblue;
+   height: 25px;
+   margin-top: 15px;
+   margin-right: 20px;
+   border: none;
+   outline: none;
+   position: relative;
+   transition: width 1s;
+   transition-delay: 0.5s;
+   
+}
+img{
+    margin-top: 19px;
+    margin-left: 6px;
+    position: relative;
+    transition: width 0.4s;
+  transition-delay: 1s;
+}
+button{
+    height: 30px;
+    margin-top: 15px;
+    margin-left: 30px;
+    background-color: aliceblue;
+    border: 1px solid aliceblue;
+    position: relative;
+
+}
+.befClick.container{
+    width: 50px;
+    
+}
+ .befClick input{
+    width: 0;
+}
+.befClick img{
+    width: 0;
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* button{
+     background-color: aliceblue;
+    border-left: 1px solid white;
+    border-bottom: 1px solid aliceblue;
+    border-top: 1px solid white;
+    border-right: 1px solid aliceblue;
+   border-radius: 50%;
+   position: absolute;
+   width: 60px;
+   height: 60px;
+   box-shadow: 6px 5px 5px 0px rgba(180, 175, 175, 0.7);
+   margin-right: 60px;
+}
+.container{
+    display: flex;
+    background-color: aliceblue;
+    border-left: 1px solid white;
+    border-bottom: 1px solid aliceblue;
+    border-top: 1px solid white;
+    border-right: 1px solid aliceblue;
+   border-radius: 50px;
+    justify-content: center;
+    margin-top: 200px;
+    width: 300px;
+   
+    border: 1px solid black;
+    height: 70px;
+   box-shadow: 6px 5px 5px 0px rgba(180, 175, 175, 0.7);
+}
+img{
+    position: relative;
+    left: 270px;
+    bottom: 35px;
+}
+input{
+     border: none; 
+    background-color: aliceblue;
+    
+}
+.Whole-bar{
+    display: flex;
+} */  

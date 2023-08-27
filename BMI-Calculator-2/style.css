@@ -1,0 +1,92 @@
+*{
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+body{
+    margin: 0;
+    background: linear-gradient(to right,rgb(117, 251, 206),PaleGreen);
+    width: 100%;
+   
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 85vh;
+    width: 550px;
+    margin-left: 220px;
+    margin-top: 30px;
+    border: none;
+     background-color: rgba(255,255,255, .3);
+    box-shadow:  0 0 6px 3px rgb(24, 196, 139);
+   
+}
+h1{
+    position: relative;
+    left: 20px;
+    font-weight: 400;
+   
+}
+input{
+    width: 500px;
+    height: 30px;
+    left: 20px;
+   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3) inset;
+    font-size: 17px;
+   
+    border: none;
+}
+.height{
+    position: relative;
+    left: 10px;
+    font-weight: 300;
+}
+.weight{
+    position: relative;
+    bottom: 20px;
+    left: 10px;
+    font-weight: 300;
+    
+}
+
+
+#NumIn{
+    position: relative;
+   bottom: 10px;
+}
+#NumIn2{
+    position: relative;
+   bottom: 30px;
+}
+#textIn{
+    position: relative;
+    bottom: 10px;
+    
+}
+h3{
+    position: relative;
+    bottom: 10px;
+    left: 10px;
+    font-weight: 300;
+}
+button{
+    position: relative;
+    bottom: 20px;
+    left: 20px;
+    height: 35px;
+    width: 510px;
+    background-color: rgb(101, 244, 101);
+    border: none;
+    box-shadow:  0 0 2px 1px rgb(24, 196, 139);
+    border-radius: 5px ;
+    font-size: 20px;
+}
+button:hover{
+    box-shadow: 0 0 2px 4px rgba(48, 46, 46, 0.1) ;
+}
+#WeightCon{
+   font-weight: 300;
+   margin-left: 3px;
+}
+

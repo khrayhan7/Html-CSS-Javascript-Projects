@@ -1,0 +1,63 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 80vh;
+   
+}
+.Buttons{
+    display: flex;
+    gap: 5px;
+   
+}
+h1{
+    font-weight: 400;
+}
+.minus {
+  
+    border: 1px solid rgb(220, 45, 45);
+    height: 35px;
+    width: 40px;
+    text-align:  center ;
+    font-size: 50px;
+    color: white;
+    background-color: rgb(211, 61, 61);
+    border-radius: 5px;
+    cursor: pointer;
+    user-select: none;
+}
+.Plus{
+    border: 1px solid mediumseagreen;
+    height: 35px;
+    width: 40px;
+    text-align:  center ;
+    font-size: 27px;
+    color: white;
+    background-color: rgb(53, 166, 103);
+    border-radius: 5px;
+  cursor: pointer;
+  user-select: none;
+}
+.reset{
+    border: 1px solid gray;
+    width: 65px;
+    height: 35px;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    border-radius: 5px;
+  cursor: pointer;
+  user-select: none;
+    background-color: gray;
+
+}
+.reset:hover{
+    background-color: rgb(98, 95, 95);
+}
+.Plus:hover{
+    background-color: rgb(30, 136, 78);
+}
+.minus:hover{
+    background-color: rgb(163, 35, 35);
+}
